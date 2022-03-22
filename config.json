@@ -1,0 +1,9 @@
+{
+  "data": ["ONE DIRECTORY WITH VIEWPOINT DATA", "ANOTHER DIRECTORY", "ETC"],
+  "stride": 16,
+  "preview": 0,
+  "vrs": {
+    "checkpoint": "SOME TRAINED 16x16 .ckpt FILE PATH",
+    "threshold": 0.2
+  }
+}
