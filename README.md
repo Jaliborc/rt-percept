@@ -35,7 +35,7 @@ We are releasing both our dataset and renderer + scenes used to generate it. The
 
 To use this code, the location of the dataset and other parameters can be controlled by modifying the `config.json` file. This repository comes with 3 example python scripts:
 * `train.py` - trains a new FLIP predictive model
-* `preview-metrics.py` - renders ground truth data of all the tested metrics in transformed space for a given view
+* `preview-metrics.py` - renders ground truth of all the tested metrics in transformed space for a given view
 * `preview-vrs.py` - compares VRS render decisions using JNFLIP with using a trained JNFLIP  model on a given view
 
 ## Citation

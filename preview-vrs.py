@@ -54,5 +54,5 @@ if __name__ == '__main__':
         save(render, f'{name}-render')
         save(debug, f'{name}-debug')
 
-def save(img, path): return ft.to_pil_image(img).save(os.path.expanduser('~/Desktop') + f'/{path}.png', 'png')
+def save(img, path): return ft.to_pil_image(img).save(f'/{path}.png', 'png')
 def color(*rgb): return torch.tensor(rgb).view(-1,1,1)

@@ -18,5 +18,5 @@ if __name__ == '__main__':
                                 num_channels = data.num_channels('input'),
                                 num_guesses = data.num_sources('modes'))
 
-    trainer = Trainer(gpus=[1], val_check_interval=100)
+    trainer = Trainer(gpus=1, val_check_interval=100)
     trainer.fit(model, tloader, vloader)

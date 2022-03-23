@@ -1,5 +1,5 @@
 from torchvision.transforms import functional as ft
-#from matplotlib import pyplot
+from matplotlib import pyplot
 from api.perceptual import *
 from api.loaders import *
 import torch, json
@@ -26,4 +26,4 @@ if __name__ == '__main__':
             colored = pyplot.get_cmap()(result)
 
             img = ft.to_pil_image(torch.tensor(colored).permute(2,0,1))
-            img.save(os.path.expanduser('~/Desktop') + '/' + name + '.png', 'png')
+            img.save(name + '.png', 'png')
