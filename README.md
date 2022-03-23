@@ -1,9 +1,10 @@
 # RT Percept
 <div align="center">
-<h4><a href="">Website</a> | <a href="">Paper (soon)</a> | <a href="">Video (soon)</a> | <a href="">Data Tools</a> | <a href="">Scenes</a> | <a href="">Pre-Rendered Data</a></h4>
+<h4><a href="">Website</a> • <a href="">Paper</a> • <a href="">Video (soon)</a> • <a href="">Renderer</a> • <a href="">Scenes</a> • <a href="">Dataset</a></h4>
 </div>
 
-![teaser]()
+![teaser](https://github.com/Jaliborc/rt-percept/blob/website/images/teaser.png?raw=true)
+
 **Training and Predicting Visual Error for Real-Time Applications**  
 [Joao Liborio Cardoso](https://www.jaliborc.com), [Bernhard Kerbl](https://scholar.google.com/citations?user=jeasMB0AAAAJ), [Lei Yang](https://www.leiy.cc/), [Yury Uralsky](), [Michael Wimmer](https://www.cg.tuwien.ac.at/staff/MichaelWimmer)  
 In Proceedings of the ACM in Computer Graphics and Interactive Techniques
@@ -30,9 +31,9 @@ python train.py
 ```
 
 ## Usage
-We are releasing both our dataset and tools used to generate it. The dataset consists of renderings in multiple resolutions of different scenes from randomly selected (valid) viewpoints, and corresponding G-buffer data used in deferred shading.
+We are releasing both our dataset and renderer + scenes used to generate it. The dataset consists of renderings in multiple resolutions of different scenes from randomly selected (valid) viewpoints, and corresponding G-buffer data used in deferred shading.
 
-To use this code, the location of the dataset and other parameters can be controlled by modifying the `config.json` file. The repository comes with 3 example python scripts:
+To use this code, the location of the dataset and other parameters can be controlled by modifying the `config.json` file. This repository comes with 3 example python scripts:
 * `train.py` - trains a new FLIP predictive model
 * `preview-metrics.py` - renders ground truth data of all the tested metrics in transformed space for a given view
 * `preview-vrs.py` - compares VRS render decisions using JNFLIP with using a trained JNFLIP  model on a given view
