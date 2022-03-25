@@ -30,6 +30,16 @@ source activate.sh
 python train.py
 ```
 
+## Dataset
+We are releasing both our example dataset and the tools used to generate it. The dataset itself consists of renderings in multiple resolutions of different scenes from (valid) randomly chosen viewpoints, and the corresponding G-buffer data used in its deferred shading. Due to its size, we've split it into four packages:
+
+* [Suntemple](https://researchdata.tuwien.ac.at/records/0rt9q-n2214)
+* [Lumberyard Bistro](https://researchdata.tuwien.ac.at/records/73mtg-wxz22)
+* [Emerald Square](https://researchdata.tuwien.ac.at/records/qjded-2z765)
+* [Sibenik Cathedral](https://researchdata.tuwien.ac.at/records/7qbqh-qjm92)
+
+See the [renderer](https://github.com/Jaliborc/rt-percept/tree/renderer) for the software employed to generate it, and here for the [scenes](https://researchdata.tuwien.ac.at/records/py0ks-zzv95) themselves used by it.
+
 ## Usage
 We are releasing both our dataset and renderer + scenes used to generate it. The dataset consists of renderings in multiple resolutions of different scenes from randomly selected (valid) viewpoints, and corresponding G-buffer data used in deferred shading.
 
