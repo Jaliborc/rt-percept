@@ -1,6 +1,6 @@
 # RT Percept
 <div align="center">
-<h4><a href="https://jaliborc.github.io/rt-percept/">Website</a> • <a href="https://jaliborc.github.io/rt-percept/paper.pdf">Paper</a> • <a href="">Video (soon)</a> • <a href="">Renderer</a> • <a href="">Scenes</a> • <a href="">Dataset</a></h4>
+<h4><a href="https://jaliborc.github.io/rt-percept/">Website</a> • <a href="https://jaliborc.github.io/rt-percept/paper.pdf">Paper</a> • <a href="">Video (soon)</a> • <a href="https://github.com/Jaliborc/rt-percept/tree/renderer">Renderer</a> • <a href="">Scenes</a> • <a href="">Dataset</a></h4>
 </div>
 
 ![teaser](https://github.com/Jaliborc/rt-percept/blob/website/images/teaser.png?raw=true)
