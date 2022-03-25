@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{8d11aaa5-4db6-4be6-8209-524bdb2834f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Yang">
+      <UniqueIdentifier>{56b4427e-2443-4626-a49a-ecd06ca13563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Jaliborc">
+      <UniqueIdentifier>{337d0544-acc8-4bb5-af01-647567cf43a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdaptiveVRS.cpp" />
+    <ClCompile Include="Debug\VRSDebug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Yang\YangVRS.cpp">
+      <Filter>Yang</Filter>
+    </ClCompile>
+    <ClCompile Include="Jaliborc\JaliVRS.cpp">
+      <Filter>Jaliborc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Debug\VRSDebug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Yang\YangVRS.h">
+      <Filter>Yang</Filter>
+    </ClInclude>
+    <ClInclude Include="Jaliborc\JaliVRS.h">
+      <Filter>Jaliborc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ShaderSource Include="Debug\VRSDebug.slang">
+      <Filter>Debug</Filter>
+    </ShaderSource>
+    <ShaderSource Include="Yang\YangVRS.slang">
+      <Filter>Yang</Filter>
+    </ShaderSource>
+    <ShaderSource Include="Jaliborc\PickRate.slang">
+      <Filter>Jaliborc</Filter>
+    </ShaderSource>
+    <ShaderSource Include="Jaliborc\CopyInput.slang">
+      <Filter>Jaliborc</Filter>
+    </ShaderSource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Jaliborc\Model.onnx">
+      <Filter>Jaliborc</Filter>
+    </None>
+  </ItemGroup>
+</Project>
