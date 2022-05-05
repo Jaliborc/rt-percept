@@ -52,5 +52,21 @@ To use this code, the location of the dataset and other parameters can be contro
 If you use this code or dataset for your research, please cite our paper:
 
 ```bibtex
-  TBD
+@article{10.1145/3522625,
+  author = {Cardoso, Joao Liborio and Kerbl, Bernhard and Yang, Lei and Uralsky, Yury and Wimmer, Michael},
+  title = {Training and Predicting Visual Error for Real-Time Applications},
+  year = {2022},
+  issue_date = {May 2022},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {5},
+  number = {1},
+  url = {https://doi.org/10.1145/3522625},
+  doi = {10.1145/3522625},
+  journal = {Proc. ACM Comput. Graph. Interact. Tech.},
+  month = {may},
+  articleno = {11},
+  numpages = {17},
+  keywords = {deep learning, variable rate shading, perceptual error, real-time}
+}
 ```
