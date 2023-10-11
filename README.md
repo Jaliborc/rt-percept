@@ -3,7 +3,7 @@
 <h4><a href="https://jaliborc.github.io/rt-percept/">Website</a> • <a href="https://jaliborc.github.io/rt-percept/paper.pdf">Paper</a> • <a href="https://www.youtube.com/watch?v=Kb0Gc80YX-Y">Talk</a> • <a href="#dataset">Dataset</a> • <a href="https://github.com/Jaliborc/rt-percept/tree/renderer">Renderer</a>
 </div>
 
-![teaser](https://github.com/Jaliborc/rt-percept/blob/website/images/teaser.png?raw=true)
+![teaser](https://github.com/Jaliborc/rt-percept/blob/website/images/teaser.webp)
 
 **Training and Predicting Visual Error for Real-Time Applications**  
 [Joao Liborio Cardoso](https://www.jaliborc.com), [Bernhard Kerbl](https://scholar.google.com/citations?user=jeasMB0AAAAJ), [Lei Yang](https://www.leiy.cc/), [Yury Uralsky](), [Michael Wimmer](https://www.cg.tuwien.ac.at/staff/MichaelWimmer)  
